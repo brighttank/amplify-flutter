@@ -19,8 +19,10 @@ platforms:
   web:
 
 dependencies:
-  amplify_core: ">=1.7.0 <1.8.0"
-  amplify_secure_storage: ">=0.4.0+6 <0.5.0"
+  amplify_core:
+    path: ../../amplify_core
+  amplify_secure_storage:
+    path: ../../secure_storage/amplify_secure_storage
   aws_common: ">=0.6.0 <0.7.0"
   collection: ^1.15.0
   flutter:
