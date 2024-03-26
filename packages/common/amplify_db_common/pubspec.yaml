@@ -10,7 +10,10 @@ environment:
   flutter: ">=3.10.0"
 
 dependencies:
-  amplify_db_common_dart: ">=0.3.5 <0.4.0"
+  amplify_db_common_dart:
+    git:
+      url: https://github.com/brighttank/amplify-flutter.git
+      path: packages/common/amplify_db_common_dart
   drift: ">=2.14.0 <2.17.0"
   flutter:
     sdk: flutter

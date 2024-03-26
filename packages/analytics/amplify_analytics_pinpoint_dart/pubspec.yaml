@@ -13,7 +13,10 @@ dependencies:
     git:
       url: https://github.com/brighttank/amplify-flutter.git
       path: packages/amplify_core
-  amplify_db_common_dart: ">=0.3.5 <0.4.0"
+  amplify_db_common_dart:
+    git:
+      url: https://github.com/brighttank/amplify-flutter.git
+      path: packages/common/amplify_db_common_dart
   amplify_secure_storage_dart:
     git:
       url: https://github.com/brighttank/amplify-flutter.git
