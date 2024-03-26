@@ -20,9 +20,13 @@ platforms:
 
 dependencies:
   amplify_core:
-    path: ../../amplify_core
+    git:
+      url: https://github.com/brighttank/amplify-flutter.git
+      path: packages/amplify_core
   amplify_secure_storage:
-    path: ../../secure_storage/amplify_secure_storage
+    git:
+      url: https://github.com/brighttank/amplify-flutter.git
+      path: packages/secure_storage/amplify_secure_storage
   aws_common: ">=0.6.0 <0.7.0"
   collection: ^1.15.0
   flutter:

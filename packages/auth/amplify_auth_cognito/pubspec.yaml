@@ -20,16 +20,29 @@ platforms:
 
 dependencies:
   amplify_analytics_pinpoint:
-    path: ../../analytics/amplify_analytics_pinpoint
+    git:
+      url: https://github.com/brighttank/amplify-flutter.git
+      path: packages/analytics/amplify_analytics_pinpoint
   amplify_analytics_pinpoint_dart:
-    path: ../../analytics/amplify_analytics_pinpoint_dart
+    git:
+      url: https://github.com/brighttank/amplify-flutter.git
+      path: packages/analytics/amplify_analytics_pinpoint_dart
   amplify_auth_cognito_dart:
-    path: ../amplify_auth_cognito_dart
+    git:
+      url: https://github.com/brighttank/amplify-flutter.git
+      path: packages/auth/amplify_auth_cognito_dart
   amplify_core:
-    path: ../../amplify_core
+    git:
+      url: https://github.com/brighttank/amplify-flutter.git
+      path: packages/amplify_core
   amplify_flutter:
-    path: ../../amplify/amplify_flutter
-  amplify_secure_storage: ">=0.4.1 <0.5.0"
+    git:
+      url: https://github.com/brighttank/amplify-flutter.git
+      path: packages/amplify/amplify_flutter
+  amplify_secure_storage:
+    git:
+      url: https://github.com/brighttank/amplify-flutter.git
+      path: packages/secure_storage/amplify_secure_storage
   async: ^2.10.0
   flutter:
     sdk: flutter
