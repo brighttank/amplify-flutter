@@ -14,7 +14,7 @@ dependencies:
     git:
       url: https://github.com/brighttank/amplify-flutter.git
       path: packages/common/amplify_db_common_dart
-  drift: ">=2.14.0 <drift: ">=2.14.0 <2.16.0"
+  drift: ">=2.14.0 <2.16.0"
   flutter:
     sdk: flutter
   path: ">=1.8.0 <2.0.0"
